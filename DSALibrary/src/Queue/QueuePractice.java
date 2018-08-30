@@ -16,14 +16,20 @@ public class QueuePractice {
     public void enqueue (int x){
         a[rear] = x;
         rear = (rear+1)%limit;
+        size++;
     }
 
     public void dequeue(){
         front = (front + 1)%limit;
+        size--;
+    }
+
+    public int getSize(){
+        return size;
     }
 
     public void show(){
-        for(int i = front; i<rear; i++){
+        for(int i = 0; i<size; i++){
             System.out.print(a[front + i] + " ");
         }
     }
