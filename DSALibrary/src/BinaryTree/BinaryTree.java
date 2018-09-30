@@ -87,19 +87,36 @@ public class BinaryTree {
         printInOrder(root);
     }
 
+    public void printPostOrder (Node node){
+        if (node == null){
+            return;
+        }
+        printPostOrder(node.left);
+        printPostOrder(node.right);
+        System.out.print(node.data + " ");
+    }
+
+    public void printPostOrder(){
+        printPostOrder(root);
+    }
+
     public static void main (String [] args){
         BinaryTree bs = new BinaryTree();
-        bs.add(76);
-        bs.add(82);
-        bs.add(77);
-        bs.add(89);
-        bs.add(54);
-        bs.add(31);
-        bs.add(55);
+        bs.add(10);
+        bs.add(7);
+        bs.add(5);
+        bs.add(8);
+        bs.add(15);
+        bs.add(13);
+        bs.add(17);
+        bs.add(16);
+        bs.add(18);
 
-        bs.delete(82);
+//        bs.delete(15);
         bs.printPreOrder();
         System.out.println();
         bs.printInOrder();
+        System.out.println();
+        bs.printPostOrder();
     }
 }
