@@ -11,7 +11,7 @@ import java.util.*;
 // representation
 class Graph {
     private int V;   // No. of vertices
-    private LinkedList<Integer> adj[]; //Adjacency Lists
+    private static LinkedList<Integer> adj[]; //Adjacency Lists
 
     // Constructor
     Graph(int v) {
@@ -58,6 +58,33 @@ class Graph {
         }
     }
 
+    void DFSUtil(int v,boolean visited[])
+    {
+        // Mark the current node as visited and print it
+        visited[v] = true;
+        System.out.print(v+" ");
+
+        // Recur for all the vertices adjacent to this vertex
+        Iterator<Integer> i = adj[v].listIterator();
+        while (i.hasNext())
+        {
+            int n = i.next();
+            if (!visited[n])
+                DFSUtil(n, visited);
+        }
+    }
+
+    // The function to do DFS traversal. It uses recursive DFSUtil()
+    void DFS(int v)
+    {
+        // Mark all the vertices as not visited(set as
+        // false by default in java)
+        boolean visited[] = new boolean[V];
+
+        // Call the recursive helper function to print DFS traversal
+        DFSUtil(v, visited);
+    }
+
     // Driver method to
     public static void main(String args[]) {
         Graph g = new Graph(4);
@@ -73,5 +100,8 @@ class Graph {
                 "(starting from vertex 2)");
 
         g.BFS(2);
+        System.out.println();
+        System.out.println(Arrays.toString(adj));
+        g.DFS(2);
     }
 }
