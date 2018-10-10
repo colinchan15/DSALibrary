@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b09bfa58-a481-4f68-9e14-0192d9bdd336" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graph/AdjList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PracticeGraph/PracticeGraph.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,22 +87,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2563" />
+          <entry key="java" value="2848" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2563" />
+          <entry key="JAVA" value="2848" />
         </counts>
       </usages-collector>
     </session>
@@ -120,16 +118,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Graph/BFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+            <state relative-caret-position="345">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#623#624#0" expanded="true" />
                 <element signature="e#652#653#0" expanded="true" />
                 <element signature="e#948#957#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PracticeGraph/PracticeGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding>
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,6 +154,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>visited</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -192,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/PracticeBinarySearchTree3/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/Graph/AdjList.java" />
         <option value="$PROJECT_DIR$/src/Graph/BFS.java" />
+        <option value="$PROJECT_DIR$/src/PracticeGraph/PracticeGraph.java" />
       </list>
     </option>
   </component>
@@ -231,6 +248,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Graph" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DSALibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSALibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PracticeGraph" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -241,7 +264,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539209676454" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539210358336" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -258,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Graph">
+  <component name="RunManager" selected="Application.PracticeGraph">
     <configuration name="AdjList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph.AdjList" />
       <module name="DSALibrary" />
@@ -298,19 +321,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeDLL.DLL" />
-      <module name="DSALibrary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PracticeDLL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graph.Graph" />
       <module name="DSALibrary" />
@@ -324,20 +334,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PracticeGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeGraph.PracticeGraph" />
+      <module name="DSALibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PracticeGraph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.DLL" />
       <item itemvalue="Application.BinaryTree" />
       <item itemvalue="Application.BinarySearchTree" />
       <item itemvalue="Application.AdjList" />
       <item itemvalue="Application.Graph" />
+      <item itemvalue="Application.PracticeGraph" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PracticeGraph" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.AdjList" />
         <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.DLL" />
       </list>
     </recent_temporary>
   </component>
@@ -366,17 +389,18 @@
       <workItem from="1538427004908" duration="495000" />
       <workItem from="1538589839116" duration="1162000" />
       <workItem from="1538602953184" duration="485000" />
-      <workItem from="1539194711953" duration="1607000" />
+      <workItem from="1539194711953" duration="2226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78811000" />
+    <option name="totallyTimeSpent" value="79430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14862682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14862682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,7 +409,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27671233" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27671233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -693,13 +717,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph/BFS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+        <state relative-caret-position="345">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#623#624#0" expanded="true" />
             <element signature="e#652#653#0" expanded="true" />
             <element signature="e#948#957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PracticeGraph/PracticeGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
           </folding>
         </state>
       </provider>
