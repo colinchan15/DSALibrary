@@ -27,11 +27,22 @@ public class PracticeGraph {
         adj[v].add(w);
     }
 
+    public void printGraph (){
+        for (int i = 0; i < adj.length; i++){
+            System.out.print("Adjacency list of vertex " + i + ": " + adj[i]);
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         PracticeGraph pg = new PracticeGraph(5);
 
         pg.addEdge(0,3);
         pg.addEdge(0,1);
+        pg.addEdge(1,0);
+        pg.addEdge(2,3);
+
+        pg.printGraph();
 
     }
 }
